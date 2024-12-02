@@ -1,0 +1,181 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fef4e6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #ffcc70, #ff758c);
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #ff758c;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ff758c;
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #ff758c;
+}
+
+.welcome p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background: white;
+    color: #ff758c;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: #ff758c;
+    color: white;
+    transform: scale(1.1); /* Adds hover effect */
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffedcc;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff758c;
+}
+
+.about .btn {
+    margin-top: 20px;
+    background: #ff758c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+
+.about .btn:hover {
+    background: #ffcc70;
+    color: #333;
+    transform: scale(1.05);
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff758c;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #ffcc70;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service i {
+    color: #ff758c;
+    margin-bottom: 15px;
+}
+
+.service .btn {
+    margin-top: 20px;
+    background: #ff758c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+
+.service .btn:hover {
+    background: #ffcc70;
+    color: #333;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background: #ff758c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
